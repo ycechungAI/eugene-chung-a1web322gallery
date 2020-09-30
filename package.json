@@ -4,7 +4,7 @@
   "description": "Web222 Assignment 1 ycechung",
   "main": "server.js",
   "scripts": {
-    "start": "server.js"
+    "start": "node server.js"
   },
 
   "author": "Yiu Chun Eugene Chung",
