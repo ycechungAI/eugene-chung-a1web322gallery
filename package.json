@@ -2,10 +2,11 @@
   "name": "web222a1",
   "version": "1.0.0",
   "description": "Web222 Assignment 1 ycechung",
-  "main": "npm express-handlebars.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "server.js"
   },
+
   "author": "Yiu Chun Eugene Chung",
   "dependencies": {
     "body-parser": "^1.19.0",
