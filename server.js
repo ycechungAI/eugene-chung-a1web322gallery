@@ -17,7 +17,7 @@
 
 */
 
-var port = process.env.PORT || 8080;
+let port = process.env.PORT || 3000;
 
 const express = require("express");
 const bodyParser = require('body-parser');
@@ -75,6 +75,6 @@ app.post('/', (req, res) => {
         data: someData
     });
 });
-const server = app.listen(HTTP_PORT, () => {
-    console.log(`Listening on port ${HTTP_PORT}`);
+const server = app.listen(port, () => {
+    console.log(`Listening on port ${port}`);
 });
