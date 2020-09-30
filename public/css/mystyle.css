@@ -1,0 +1,15 @@
+.content{
+    overflow:auto;
+}
+
+#clsSelection {
+    float: left;
+    width: 30%;
+    margin: 3px;
+}
+
+#clsContent {
+    float: right;
+}
+
+.border { border: 15px solid red; }
