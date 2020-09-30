@@ -55,13 +55,11 @@ rl.on("line", (line, lineCount, byteCount)=>{
 });
 
 app.get("/", (req,res) => {   //  Set up viewData route to "render" the handlebars file with data
-    res.sendFile(path.join())dirname,"/views/viewData.hbs"
     someData.curCat.img = `${someData.arrayImg[0].line}.jpg`
     //console.log(someData.curCat.img); //debug purposes
     res.render('viewData', {                                                      //  Invokes the render method on the response (res) object
         data: someData
     });
-    res.redirect('/app');
 
 });
 app.post('/', (req, res) => {
