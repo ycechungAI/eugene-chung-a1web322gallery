@@ -17,7 +17,7 @@
 
 */
 
-let port = process.env.PORT || 8080;
+var port = process.env.PORT || 8080;
 
 const express = require("express");
 const bodyParser = require('body-parser');
@@ -61,6 +61,7 @@ app.get("/", (req,res) => {   //  Set up viewData route to "render" the handleba
     res.render('viewData', {                                                      //  Invokes the render method on the response (res) object
         data: someData
     });
+    res.redirect('/app');
 
 });
 app.post('/', (req, res) => {
