@@ -29,7 +29,7 @@ const rl = readline("./imagelist.txt");
 var someData = { curCat:[], arrayImg:[]};
 
 const app = express();
-app.engine("hbs", exphbs({
+app.engine("hbs", exphbs.engine({
     extname: "hbs",
     defaultLayout: false,
     layoutDir: path.join(__dirname, "/views")
