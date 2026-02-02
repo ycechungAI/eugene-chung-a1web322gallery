@@ -13,15 +13,15 @@
             <form action="/" method="POST">
             <!-- loop through txt file imagelist.txt using readline-->
                 {{#each data.arrayImg}}
-                <input type="radio" id={{this.line}} name="selection" value={{this.line}}>
-                <label for={{line}}>{{line}}</label><br>
+                <input type="radio" id="{{this.line}}" name="selection" value="{{this.line}}">
+                <label for="{{this.line}}">{{this.line}}</label><br>
                 {{/each}}
                 <input class="submit" type="submit" value="Submit"> 
             </form>
         </div>
         <div class="clsContent">
             <h1>{{data.curCat.cat}}</h1>
-            <img src={{data.curCat.img}} alt={{data.curCat.cat}} class="border" border="25"/>
+            <img src="{{data.curCat.img}}" alt="{{data.curCat.cat}}" class="border" border="25"/>
         </div>
     </div>
 </body>
