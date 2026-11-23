@@ -16,7 +16,7 @@ Then open `http://localhost:8080` in your browser.
 
 ## Deployment
 
-This site is configured to deploy automatically to **GitHub Pages** on every push to `main` via `.github/workflows/jekyll-gh-pages.yml`.
+This site is configured to deploy automatically to **GitHub Pages** on every push to `main` via `.github/workflows/static.yml`.
 
 ## Technologies Used
 
