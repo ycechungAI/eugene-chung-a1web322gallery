@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./public/css/mystyle.css" />
+    <title>Cat Breed Gallery</title>
+</head>
+<body>
+
+    <h1>Cat Breed Gallery</h1>
+    <div id="content">
+        <div class="clsSelection">
+            <form id="breedForm" method="GET">
+                <div id="breedOptions"></div>
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="clsContent">
+            <h1 id="catName"></h1>
+            <img id="catImg" src="" alt="" class="border" border="25" />
+            <div id="catDetails" class="cat-details border" hidden>
+                <p><strong>Breed:</strong> <span id="detailTitle"></span></p>
+                <p><strong>Typical Price:</strong> <span id="detailPrice"></span></p>
+                <p><strong>Origin:</strong> <span id="detailOrigin"></span></p>
+                <p><strong>Temperament:</strong> <span id="detailTemperament"></span></p>
+                <p><strong>Lifespan:</strong> <span id="detailLifespan"></span></p>
+                <p id="detailDescription"></p>
+                <button type="button" id="backToPhoto">Show Photo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./public/js/app.js"></script>
+</body>
+</html>

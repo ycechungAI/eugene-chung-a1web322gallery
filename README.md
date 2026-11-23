@@ -1,21 +1,25 @@
 # Cat Breed Gallery
 
-This is a simple web application that displays a gallery of cat breeds.
+A static web application that displays a gallery of cat breeds.
 
-## Running the project
+> **Note:** The original Node.js + Express + Handlebars version is preserved at git tag `v1.0`.
 
-1. Install the dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the server:
-   ```bash
-   node server.js
-   ```
-3. Open your browser and navigate to `http://localhost:8080`.
+## Running Locally
+
+You can open `index.html` directly in your browser, or run a local static server from the project root:
+
+```bash
+python3 -m http.server 8080
+```
+
+Then open `http://localhost:8080` in your browser.
+
+## Deployment
+
+This site is configured to deploy automatically to **GitHub Pages** on every push to `main` via `.github/workflows/jekyll-gh-pages.yml`.
 
 ## Technologies Used
 
-* Node.js
-* Express
-* Express Handlebars
+* HTML5
+* CSS3
+* Vanilla JavaScript
